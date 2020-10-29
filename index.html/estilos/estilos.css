@@ -66,7 +66,7 @@ ul{
     height:300px ;
     margin: 50px 20px 20px 20px;
     background-color: #1B2127;
-    background-image: url("../imagenes/xeno.jpg");
+    background-image: url("../imagenes/Oblivia.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -82,27 +82,31 @@ strong{
 }
 
 .header{
-    background-color: #1B2127;
+    background-color: purple;
     color: white;
+    height: 70px;
     margin-bottom: 0px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .header
 ul{
     margin-bottom: 0px;
+    
 }
 .header a{
     color: white;
     text-decoration: none;
+    padding: 0px 10px;
 }
 
 .experiencia{
     border: 3px solid orange;
     border-radius: 5px;
     background-color: orange;
-    margin-top: 15px;
+    margin: 20px opx;
 }
 
 .experience_details{
@@ -124,4 +128,27 @@ ul{
 }
 .experiencia_animefest2{
     display: inline-block;
+}
+
+.contacto{
+    border: white;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px 0px;
+}
+.contacto div{
+    padding: 20px;
+}
+
+.footer{
+    display: flex ;
+    color: white ;
+    background-color: orange;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer img {
+    vertical-align: middle;
 }
