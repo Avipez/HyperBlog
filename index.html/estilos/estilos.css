@@ -1,6 +1,6 @@
 body{
     font-family: "Source Sans Pro";
-    background: #1B2127;
+    background: transparent;
 }
 h1,
 h2,
@@ -64,6 +64,7 @@ ul{
 
 .hero{
     height:300px ;
+    display: flex;
     margin: 50px 20px 20px 20px;
     background-color: #1B2127;
     background-image: url("../imagenes/xeno.jpg");
@@ -96,6 +97,7 @@ ul{
 .header a{
     color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 .experiencia{
