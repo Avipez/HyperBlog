@@ -186,6 +186,11 @@ ul{
     margin: 20px;
 }
 
+.evento{
+    border: 1px solid red;
+    margin: 10px;
+}
+
 .contacto{
     border: white;
     border-radius: 5px;
