@@ -1,6 +1,7 @@
 body{
     font-family: "Source Sans Pro";
     background: transparent;
+    background-color: #1B2127 ;
 }
 h1,
 h2,
@@ -12,7 +13,7 @@ h5{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 60px;
     line-height: 1.5em;
     letter-spacing: -.2px;
     margin-top: 0px;
@@ -21,7 +22,10 @@ h1{
 }
 
 h2{
+    font-size: 40px; ;
     color: white;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
 ul
@@ -33,11 +37,13 @@ li{
 
 ul{
     display: flex;
+    padding-right: 100px;
 }
 
 .mi_cara{
     display: none;
 }
+
 .project{
     /*border-color: greenyellow;
     border-width: 15px;
@@ -45,20 +51,38 @@ ul{
     background-color: orange;
     border: 3px solid orange;
     border-radius: 10px;
-    border
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
-.project-details{
+.project_details{
     width: 500px;
-    padding: 15px;
+    padding: 30px;
     display: inline-block;
+}
+
+.project_title{
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px ;
+
+}
+
+.project_fecha{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.project_description{
+    margin: 10px;
+    font-size: 20px;
 }
 
 .project-image-conteiner{
-
-    display: inline-block;
+    margin: 0px;
+    padding: 20px;
 
 }
 
@@ -67,7 +91,7 @@ ul{
     display: flex;
     margin: 50px 20px 20px 20px;
     background-color: #1B2127;
-    background-image: url("../imagenes/xeno.jpg");
+    background-image: url("../imagenes/Oblivia.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -85,45 +109,113 @@ strong{
 .header{
     background-color: #1B2127;
     color: white;
-    margin-bottom: 0px;
+    height: 90px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.logo{
+    /*border: 5px  solid  white;
+    border-radius: 15px;*/
+}
+
+.menu{
+    padding-bottom: 15px;
 }
 
 .header
 ul{
     margin-bottom: 0px;
+    
 }
 .header a{
     color: white;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0px 10px;
 }
 
 .experiencia{
-    border: 3px solid orange;
+    border: 10px solid orange;
     border-radius: 5px;
     background-color: orange;
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .experience_details{
-    display: inline-block;
-    padding: 15px;
+    display: flex ;
+    align-items: center;
+    padding: 30px;
+}
+
+.experiencia_link{
+    margin: 10px;
+}
+
+.experiencia_titulo{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.experiencia_fecha{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.experiencia_descripcion{
+    font-size: 20px;
+    margin: 10px;
 }
 
 .experiencia_fotos{
-    display: inline-block;
-
+    display: flex;
+    align-items: center;
 }
 
 .experiencia_logoms{
     display: inline-block;
+    margin: 20px;
 }
 
 .experiencia_animefest1{
     display: inline-block;
+    margin: 20px;
 }
 .experiencia_animefest2{
     display: inline-block;
+    margin: 20px;
+}
+
+.evento{
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.contacto{
+    border: white;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px 0px;
+}
+.contacto div{
+    padding: 20px;
+}
+
+.footer{
+    display: flex ;
+    color: white ;
+    background-color: orange;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.pie_amor{
+    padding: 15px;
 }
