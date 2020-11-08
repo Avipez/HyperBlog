@@ -12,13 +12,14 @@
     </head>
     <body>
         <header class="header">
+            <div class="contenedor">
                 <figure class="logo">
-                    <img src="imagenes/ms.jpg" height="80" alt="logo de la pagina"> 
+                    <img src="imagenes/trifuerza.png" width="100px" alt="logo de la pagina"> 
                 </figure>
             <nav class="menu">
               <ul>
                   <li>
-                      <a class="link" href="./portafolio/index.html"> Portafolio</a>
+                      <a class="link" href="#portafolio"> Portafolio</a>
                   </li>
                   <li>
                       <a class="link" href="#experiencia"> Experiencia</a>
@@ -28,86 +29,151 @@
                   </li>
               </ul>  
             </nav>
+            </div>
         </header>
         <section class="hero">
-            <h1>Hola soy <strong> David Lopez</strong> , <br> Desarrollador web <br> y TO en <strong> Team Mayan Smash </strong></h1>
-          <figure class="mi_cara"> 
-            <img src="imagenes/yo.jpg" width="250"alt="mi imagen"></img>
-          </figure> 
+            <div class="contenedor">
+                <h1>Hola soy <strong> David Lopez</strong> , <br> Desarrollador web <br> y TO en <strong> Team Mayan Smash </strong></h1>
+              <figure class="mi_cara"> 
+                <img class="hero_imagen" src="imagenes/yo.jpg" width="250"alt="mi imagen"></img>
+              </figure> 
+            </div>
         </section>
         <section class="portafolio" id="portafolio">
-            <h2>Portafolio (Proyectos destacados)</h2>
-            
-            <article class="project">
-                <div class="project_details">
-                 <h3 class="project_title"> Portafolio de trabajos</h3>
-                 <p class="project_fecha"><small><strong>Fecha:</strong> 07/09/2020 </small></p>
-                 <p class="project_description">Este Proyecto es el primer resultado de mi experiencia aprendiendo la tecnologia HTML</p>
-                </div>
-               <div class="project_photos">
-                <figure class="project-image-conteiner">
-                    <img src="imagenes/twitter.png" height="200"  alt="SS">
-                </figure>
-               </div>
-           </article>
+            <div class="contenedor">
+                <h2>Portafolio (Proyectos destacados)</h2>
+                <article class="project">
+                    <div class="project_details">
+                     <h3 class="project_title"> Portafolio de trabajos</h3>
+                     <p class="project_fecha"><small><strong>Fecha:</strong> 07/09/2020 </small></p>
+                     <p class="project_description">Este Proyecto es el primer resultado de mi experiencia aprendiendo la tecnologia HTML</p>
+                    </div>
+                   <div class="project_photos">
+                    <figure class="project-image-conteiner">
+                        <img src="imagenes/twitter.png" height="200"  alt="SS">
+                    </figure>
+                   </div>
+               </article>
+            </div>
         </section>
+    
         
-        <h2 class="experiencia_head"> Experiencia como Tournament Organizer </h2>
-        <section id="experiencia" class="experiencia">
-            <div class="experience_details">
-        <article class="experiencia_animefest">
-            <h3 class="experiencia_titulo">Torneo Anime Fest 13</h3>
-            <p class="experiencia_fecha"><small><strong>Fecha:</strong> 05/05/2019 </small></p>
-            <p class="experiencia_descripcion">El torneo mas grande que hemos tenido en Playa</p>
-            <br><a class="experiencia_link" href="https://www.facebook.com/TeamMayanSmash/photos/a.1859595854147028/2336921543081121" target="_blank">ver fotos</a>
-        </div>
-        <div class="experiencia_fotos">
-            <figure class="experiencia_logoms">
-                <img src="imagenes/animefest3.jpg" height="200" alt="logo ms">
-            </figure>
-            <figure class="experiencia_animefest1">
-                <img src="imagenes/animefest1.jpg" height="150" alt="logo ms">
-            </figure>
-            <figure class="experiencia_animefest2">
-                <img src="imagenes/animefest2.jpg" height="150" alt="logo ms">
-            </figure>
-        </div>
-        </article>
+        <section>
+            <div class="contenedor">
+                <h2 class="experiencia_head" id="experiencia"> Experiencia como Tournament Organizer </h2>
+                <div class="experiencia">
+                  <div class="experience_details">
+                      <article class="experiencia_animefest">
+                        <h3 class="experiencia_titulo">Torneo Anime Fest 13</h3>
+                        <p class="experiencia_fecha"><small><strong>Fecha:</strong> 05/05/2019 </small></p>
+                        <p class="experiencia_descripcion">El torneo mas grande que hemos tenido en Playa</p>
+                        <br><a class="experiencia_link" href="https://www.facebook.com/TeamMayanSmash/photos/a.1859595854147028/2336921543081121" target="_blank">ver fotos</a>
+                    </div>
+                    <div class="experiencia_fotos">
+                        <figure class="experiencia_logoms">
+                            <img src="imagenes/animefest3.jpg" height="200" alt="logo ms">
+                        </figure>
+                        <figure class="experiencia_animefest1">
+                            <img src="imagenes/animefest1.jpg" height="150" alt="logo ms">
+                        </figure>
+                        <figure class="experiencia_animefest2">
+                            <img src="imagenes/animefest2.jpg" height="150" alt="logo ms">
+                        </figure>
+                    </div>
+                </div>
+                </article>
+            </div>
     </section>
-    <h2>Eventos Organizados</h2>
-    <article class="evento">
-        <figure>
-            <img src="imagenes/SandB.png" alt="SandB">
-        </figure>
-        <div>
-            <h3 class="evento_titulo"> Torneos Semanales Switch and Beach </h3>
-            <p>
-                Torneos competitivos semanales de la comunidad de Playa del Carmen con premios en efectivo
-                y torneos secundarios enfocado para todo el publico.
-            </p>
+    <section class="eventos" >
+        <div class="contenedor">
+            <h2>Eventos Organizados</h2>
+            <div class="lista_eventos">
+                <article class="evento">
+                    <figure class="evento_contenedor_imagen">
+                        <img class="imagen_eventos" src="imagenes/SandB.png" alt="SandB">
+                    </figure>
+                    <div class="evento_detalles">
+                        <h3 class="evento_titulo"> Torneos Semanales Switch and Beach </h3>
+                        <p class="eventos_descripcion">
+                            Torneos competitivos semanales de la comunidad de Playa del Carmen con premios en efectivo
+                            y torneos secundarios enfocado para todo el publico.
+                        </p>
+                        <a class="eventos_link" type="link" href="https://www.facebook.com/TeamMayanSmash/photos/?view_public_for=1856884747751472&">Ver fotos</a>
+                    </div>
+                </article>
+                <article class="evento">
+                    <figure class="evento_contenedor_imagen">
+                        <img src="imagenes/SandB.png" alt="SandB">
+                    </figure>
+                    <div class="evento_detalles">
+                        <h3 class="evento_titulo"> Torneos Semanales Switch and Beach </h3>
+                        <p class="eventos_descripcion">
+                            Torneos competitivos semanales de la comunidad de Playa del Carmen con premios en efectivo
+                            y torneos secundarios enfocado para todo el publico.
+                        </p>
+                        <a class="eventos_link" type="link" href="https://www.facebook.com/TeamMayanSmash/photos/?view_public_for=1856884747751472&">Ver fotos</a>
+                    </div>
+                </article>
+                <article class="evento">
+                    <figure class="evento_contenedor_imagen">
+                        <img src="imagenes/SandB.png" alt="SandB">
+                    </figure>
+                    <div class="evento_detalles">
+                        <h3 class="evento_titulo"> Torneos Semanales Switch and Beach </h3>
+                        <p class="eventos_descripcion">
+                            Torneos competitivos semanales de la comunidad de Playa del Carmen con premios en efectivo
+                            y torneos secundarios enfocado para todo el publico.
+                        </p>
+                        <a class="eventos_link" type="link" href="https://www.facebook.com/TeamMayanSmash/photos/?view_public_for=1856884747751472&"> Ver fotos</a>
+                    </div>
+                </article>
+                <article class="evento">
+                    <figure class="evento_contenedor_imagen">
+                        <img src="imagenes/SandB.png" alt="SandB">
+                    </figure>
+                    <div class="evento_detalles">
+                        <h3 class="evento_titulo"> Torneos Semanales Switch and Beach </h3>
+                        <p class="eventos_descripcion">
+                            Torneos competitivos semanales de la comunidad de Playa del Carmen con premios en efectivo
+                            y torneos secundarios enfocado para todo el publico.
+                        </p>
+                        <a class="eventos_link" type="link" href="https://www.facebook.com/TeamMayanSmash/photos/?view_public_for=1856884747751472&">Ver fotos</a>
+                    </div>
+                </article>
+            </div>
+
         </div>
-    </article>
-        <section id="contacto" class="contacto">
+        </div>
+</section>
+<section id="contacto" class="contacto">
+    <div class="contenedor">
+        <h2 class="contacto_titulo">Contactame</h2>
+             <div class="contacto_tucorreo">
+                        <form class="form_email" action="/suscripción/">
+                             <input class="espacio_caja" type="text" placeholder="Deja tu correo aqui" id="email">
+                             <input class="boton" type="submit" value="Enviar">
+                        </form>
+               </div>    
+            <div class="contacto_redes">
+                <a class="git_hub" href="https://github.com/MSVolta"></a>
+                <a class="facebook" href="https://www.facebook.com/TeamMayanSmash"></a>
+                <a class="twitter" href="https://twitter.com/MS_Volta"></a>
+            </div>
+    </div>    
+    </section>
+    <footer class="footer">
+        <div class="contenedor">
             <div>
-            <h4 class="contacto_titulo">Contactame</h4>
-            <form class="form_email" action="/suscripción/">
-                <label for="email">Aqui</label>
-                <input type="text" placeholder="Deja tu correo aqui" id="email">
-                <input type="submit" value="texto del boton">
-            </form>
+              <p>
+                   Portafolio Personal con <img class="imagen_footer" src="../index.html/imagenes/Platzi.jpg" width="150px">
+              </p>
             </div>
-        </section>
-        <footer class="footer">
-            <div>
-                   <p>
-                    <img src="imagenes/trifuerza.png" width= 100px alt="umbrela-logo">  Primer Proyecto: Portafolio Personal 
-                   </p>
-            </div>
-            <div class="pie_amor">
-                <p>
-                    Diseñado con  por <a class="link" href="https://twitter.com/MS_Volta"> David Lopez </a>
-                </p>
-            </div>
-        </footer>
-    </body>
+             <div class="pie_amor">
+                     <p>
+                         Diseñado con <3 por <a class="link" href="https://twitter.com/MS_Volta"> David Lopez </a>
+                     </p>
+             </div>
+        </div>
+    </footer>
+  </body>
 </html>

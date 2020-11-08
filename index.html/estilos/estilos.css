@@ -16,7 +16,6 @@ h1{
     font-size: 60px;
     line-height: 1.5em;
     letter-spacing: -.2px;
-    margin-top: 0px;
     /*text-transform: uppercase;
     text-decoration: underline;*/
 }
@@ -28,6 +27,46 @@ h2{
     text-transform: uppercase;
 }
 
+.header{
+    background-color: #1B2127;
+    color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0;
+}
+
+.menu{
+    padding-bottom: 15px;
+}
+
+.header
+ul{
+    margin-bottom: 0px;
+    
+}
+
+.header a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.contenedor{
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+
 ul
 li{
     margin: 0;
@@ -37,11 +76,38 @@ li{
 
 ul{
     display: flex;
-    padding-right: 100px;
+}
+
+.hero{
+    height:300px ;
+    display: flex;
+    margin: 50px 20px 20px 20px;
+    background-color: #1B2127;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url("../imagenes/Oblivia.jpg");
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-position-x: right; */
+}
+
+.hero h1{
+    color:white;
+}
+
+h1
+strong{
+    color: orange;
+}
+
+.hero_imagen{
+
+
 }
 
 .mi_cara{
-    display: none;
+    margin: 0;
 }
 
 .project{
@@ -86,54 +152,8 @@ ul{
 
 }
 
-.hero{
-    height:300px ;
-    display: flex;
-    margin: 50px 20px 20px 20px;
-    background-color: #1B2127;
-    background-image: url("../imagenes/Oblivia.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
 
-.hero h1{
-    color:white;
-}
 
-h1
-strong{
-    color: orange;
-}
-
-.header{
-    background-color: #1B2127;
-    color: white;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo{
-    /*border: 5px  solid  white;
-    border-radius: 15px;*/
-}
-
-.menu{
-    padding-bottom: 15px;
-}
-
-.header
-ul{
-    margin-bottom: 0px;
-    
-}
-.header a{
-    color: white;
-    text-decoration: none;
-    padding: 0px 10px;
-}
 
 .experiencia{
     border: 10px solid orange;
@@ -145,18 +165,26 @@ ul{
 }
 
 .experience_details{
-    display: flex ;
     align-items: center;
     padding: 30px;
+    
 }
 
 .experiencia_link{
-    margin: 10px;
+    margin-left: 10px;
+    color: orange;
+    background-color: white ;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .experiencia_titulo{
     font-size: 30px;
-    margin: 10px;
+    margin: 0;
+    padding: 10px;
 }
 
 .experiencia_fecha{
@@ -170,7 +198,7 @@ ul{
 }
 
 .experiencia_fotos{
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
@@ -188,25 +216,127 @@ ul{
     margin: 20px;
 }
 
+.eventos{
+
+}
+
+.lista_eventos{
+    display: flex;
+    flex-wrap: inherit; 
+}
+
 .evento{
-    border: 1px solid red;
+    border: 1px solid orange;
+    border-radius: 10px;
     margin: 10px;
+    width: 470px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: orange;
+}
+
+.evento_detalles{
+    margin: 20px;
+    margin-top: -60px;
+    padding: 20px 40px;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+
+.eventos_descripcion{
+    text-align: left;
+}
+
+.eventos_link{
+    color: orange;
+    background-color: ;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.evento_contenedor_imagen{
+    margin: 0;
+}
+.evento img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .contacto{
-    border: white;
-    border-radius: 5px;
-    background-color: white;
-    margin: 20px 0px;
+    display: flex;
+    color: white;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
 }
-.contacto div{
-    padding: 20px;
+
+.contacto_tucorreo{
+    display: flex;
+    margin-left: 15px ;
+}
+
+.espacio_caja{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 20px 5px 25px;
+    background-image: url(../imagenes/correo.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.contacto .boton{
+    display: block;
+    margin: 10px auto 0;
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 100px;
+    border-style: solid;
+    color: white;
+    background: transparent;
+}
+
+
+.contacto_redes{
+    display: flex;
+    margin-right: 15px;
+}
+
+.contacto a{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px ;
+    justify-content: space-between;
+}
+
+
+.git_hub{
+    background-image: url("../imagenes/github.svg");
+}
+
+.twitter{
+    background-image: url("../imagenes/twitter.svg");
+}
+
+.facebook{
+    background-image: url("../imagenes/facebook.svg");
 }
 
 .footer{
     display: flex ;
-    color: white ;
     background-color: orange;
+    color: white ;
     align-items: center;
     justify-content: space-between;
     
@@ -214,6 +344,7 @@ ul{
 
 .footer img {
     vertical-align: middle;
+    padding-left: 10px;
 }
 
 .pie_amor{
