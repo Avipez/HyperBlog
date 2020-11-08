@@ -2,6 +2,7 @@ body{
     font-family: "Source Sans Pro";
     background: transparent;
     background-color: #1B2127 ;
+    margin: 0;
 }
 h1,
 h2,
@@ -28,12 +29,17 @@ h2{
 }
 
 .header{
-    background-color: #1B2127;
-    color: white;
+    color: black;
     height: 90px;
+}
+
+.header_border{
+    border: white 1px solid;
+    background-color: white;
+    padding: 15px 30px 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .logo{
@@ -51,7 +57,7 @@ ul{
 }
 
 .header a{
-    color: white;
+    color: #1B2127;
     font-size: 20px;
     text-decoration: none;
     padding: 0px 10px;
@@ -81,8 +87,7 @@ ul{
 .hero{
     height:300px ;
     display: flex;
-    margin: 50px 20px 20px 20px;
-    background-color: #1B2127;
+    margin: 50px 20px 100px 20px;
     align-items: center;
     justify-content: space-between;
     /* background-image: url("../imagenes/Oblivia.jpg");
@@ -210,11 +215,9 @@ strong{
 .experiencia_animefest1{
     display: inline-block;
     margin: 20px;
+    align-items: center;
 }
-.experiencia_animefest2{
-    display: inline-block;
-    margin: 20px;
-}
+
 
 .eventos{
 
@@ -339,6 +342,7 @@ strong{
     color: white ;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
     
 }
 
