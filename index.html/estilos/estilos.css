@@ -387,10 +387,40 @@ strong{
 }
 
 @media screen and (max-width: 1024px){
+    .header{
+        border: 10px solid greenyellow;
+    }
     
 }
 
 @media screen and (max-width: 768px){
+
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+/*         padding: 2em;
+ */        margin: 0px;
+    }
+
+    .mi_cara{
+        position: absolute;
+        z-index: 1;
+    }
+
+    .hero_imagen{
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2em;
+        z-index: 2;
+        background: rgba(0, 0, 0, .5);
+    }
     
     .header{
         display: block;
@@ -419,9 +449,6 @@ strong{
         text-align: center;
     }
 
-    body{
-        border: 10px solid greenyellow;
-    }
 
     .project{
         display: block;
@@ -489,8 +516,26 @@ strong{
 
     .form-email button{
         margin: 1em auto;
+    }
+    
+    .footer{
+        display: block;
+        text-align: center;
+    }
 
-}
+    .footer p{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .footer_portafolio{
+        padding: 0;
+    }
+
+    .pie_amor{
+        padding: 0;
+    }
+
 
 } 
 
@@ -502,5 +547,7 @@ strong{
 }
 
 @media screen and (max-width: 320px){
-    
+    h1{
+        font-size: 2em;
+    }
 }
